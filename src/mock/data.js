@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I am a dedicated web developer who specializes in developing full-stack web applications using practical frameworks.I am passionate about solving problems—a good solution usually requires a dose of creativity that then requires more effort to adapt and perfect.',
   paragraphTwo:
-    'I speacialize in Reactjs | NodeJs | ExpressJs | MongoDB | Redux | CSS | Bootstrap | HTML | Javascript | Firebase | Python | Figma | Formik | React-Native.',
+    'I speacialize in Reactjs | NodeJs | ExpressJs | MongoDB | Redux | CSS | Bootstrap | HTML | Javascript | Firebase | Python | Flask | SASS | Socket.IO | Multer | React Hooks |',
   paragraphThree: 'I love to code and create.',
   resume: '', // if no resume, the button will not show up
 };
@@ -38,6 +38,16 @@ export const projectsData = [
       'Created backend express server. Mongodb to store the data in backend. React functional components to design the user interface. React context api for state management. CSS for styling. Cloudinary for image storage.Heroku for deployment is used.',
     url: 'https://avinash-react-fullecommerce.herokuapp.com/',
     repo: 'https://github.com/avi-verma-web/fullEcommerce-Mern-react', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'chatSock.PNG',
+    title: 'Chat Application',
+    info:
+      'Real time chat application. Built using Socket.io, express server and React Hooks and functional components. Styling done using custom CSS. Netlify used for deployment.',
+    
+    url: 'https://avinash-chat-app.netlify.app/',
+    repo: 'https://github.com/avi-verma-web/socket-chat-app-react-avi-frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
