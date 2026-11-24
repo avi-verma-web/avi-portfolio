@@ -14,5 +14,27 @@
 @import './sections/contact';
 @import './sections/hero';
 @import './sections/projects';
+@import './sections/profile';
 
 @import './vendor/css/font-awesome.min.css';
+
+body { background: #101827; color: #dce5ef; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.jumbotron {
+  min-height: 78vh; display: flex; align-items: center; margin-bottom: 0; padding: 7rem 0;
+  background: radial-gradient(ellipse at 78% 22%, rgba(55,128,132,.28), transparent 38%), #101827 !important;
+}
+.hero-title { color: #f7f9fc; font-size: clamp(2.7rem, 6vw, 5.3rem); line-height: 1.08; letter-spacing: -.055em; font-weight: 800; max-width: 950px; }
+.hero-title .text-color-main { color: #79d5c5 !important; }
+.hero-cta { margin-top: 2.2rem; }
+.cta-btn--hero, .cta-btn--resume {
+  border-radius: 999px !important; border: 1px solid #79d5c5 !important; padding: .85rem 1.5rem !important;
+  color: #101827 !important; background: #79d5c5 !important; font-weight: 750 !important;
+}
+#about, #projects, #contact { background: #101827; color: #dce5ef; padding-top: 5rem; padding-bottom: 5rem; }
+#about h2, #projects h2, #contact h2 { color: #f7f9fc; }
+#about p, #projects p, #contact p { color: #b7c3d2; }
+#projects { background: #151f30; }
+#projects .project-wrapper__text-title { color: #f7f9fc; }
+#projects .project-wrapper { border: 1px solid #304056; border-radius: 18px; overflow: hidden; background: #1b293b; }
+#contact .contact-wrapper { background: #1b293b; border: 1px solid #304056; border-radius: 20px; padding: 3rem; }
+#footer { background: #0b1220; }
