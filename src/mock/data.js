@@ -125,7 +125,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'medium',
+      name: 'hashnode',
       url: 'https://aviverma.hashnode.dev/',
     },
   ],
