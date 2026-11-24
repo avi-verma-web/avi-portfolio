@@ -2,104 +2,117 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Avinash Verma', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Avinash Verma | Senior Software Engineer & AI Engineer',
+  lang: 'en',
+  description: 'Avinash Verma — Senior Software Engineer with 6+ years of experience in full-stack development and applied AI engineering.',
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: "Hello, I'm",
   name: 'Avinash Verma',
-  subtitle: 'I am a Full Stack Developer',
-  cta: '',
+  subtitle: 'Senior Software Engineer | Full-stack & AI Engineering',
+  cta: 'Explore my work',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'a.jpeg',
   paragraphOne:
-    'I am a dedicated web developer who specializes in developing full-stack web applications using practical frameworks.I am passionate about solving problems—a good solution usually requires a dose of creativity that then requires more effort to adapt and perfect.',
+    'I am a Senior Software Engineer with 6+ years of experience building and improving full-stack web applications. I work across frontend, backend and cloud technologies, with experience in Angular, React, Node.js, TypeScript and AWS.',
   paragraphTwo:
-    'I speacialize in Angular | Reactjs | NodeJs | ExpressJs | MongoDB | Redux | CSS | HTML | Javascript | Typescript | SASS | React Hooks |',
-  paragraphThree: 'I love to code and create.',
-  resume: '', // if no resume, the button will not show up
+    'I am also focused on applied AI engineering: LLM integrations, RAG, semantic search, embeddings, MCP and agentic workflows. I enjoy turning practical engineering problems into reliable, maintainable products.',
+  paragraphThree:
+    'I completed my postgraduate studies at ABV-IIITM Gwalior in 2019. I currently work at UnifyCX as a Senior Engineer.',
+  resume: '',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'chatSock.PNG',
-    title: 'Chat Application',
+    img: 'plant-analyzer.png',
+    title: 'Plant Analyzer',
     info:
-      'Real time chat application. Built using Socket.io, express server and React Hooks and functional components. Styling done using custom CSS. Netlify used for deployment.',
-    
+      'AI-powered plant analysis application. Uses Google Gemini 2.0 Flash for plant identification, health analysis and care recommendations, with image processing and PDF report generation.',
+    url: 'https://github.com/avi-verma-web/geminiAI-plant-analysis-tool',
+    repo: 'https://github.com/avi-verma-web/geminiAI-plant-analysis-tool',
+  },
+  {
+    id: nanoid(),
+    img: 'mern_expense_jpeg.jpg',
+    title: 'MERN Expense Tracker',
+    info:
+      'Full-stack expense tracker with authentication, income and expense management, category insights and charts. Built with React, Vite, Redux Toolkit, React Query, Tailwind CSS, Node.js, Express, MongoDB and JWT.',
+    url: 'https://avi-mern-expense-tracker.netlify.app/',
+    repo: 'https://github.com/avi-verma-web/MERN_EXPENSE_Tracker-2025',
+  },
+  {
+    id: nanoid(),
+    img: 'avi_seo_gen.jpg',
+    title: 'Gen AI SEO Generator',
+    info:
+      'AI-powered SEO keyword generator using Cohere GenAI, Firebase Google Sign-In and Firestore. Built with React 19, Tailwind CSS, Vite and Axios.',
+    url: 'https://avi-coheregen-ai-seo-generator.netlify.app/login',
+    repo: 'https://github.com/avi-verma-web/gen-ai-seo-generator',
+  },
+  {
+    id: nanoid(),
+    img: 'chatSock.PNG',
+    title: 'Real-time Chat Application',
+    info:
+      'Real-time chat application built with Socket.IO, Express and React Hooks.',
     url: 'https://avinash-chat-app.netlify.app/',
-    repo: 'https://github.com/avi-verma-web/socket-chat-app-react-avi-frontend', // if no repo, the button will not show up
+    repo: 'https://github.com/avi-verma-web/socket-chat-app-react-avi-frontend',
+  },
+  {
+    id: nanoid(),
+    img: 'voice.png',
+    title: 'Voice Recognition News App',
+    info:
+      'Conversational voice-controlled React news application built with Alan AI and Material UI.',
+    url: 'https://avinashvoicenews.netlify.app/',
+    repo: 'https://github.com/avi-verma-web/avi-voice-news',
   },
   {
     id: nanoid(),
     img: 'netflix.png',
     title: 'Netflix UI',
     info:
-      'Netflix UI using reactjs functional components, React context API for state management, CSS flexbox for layout design and styling the components. Fisbase for hosting application',
-    info2: '',
+      'Netflix-style interface built with React functional components, Context API and CSS Flexbox.',
     url: 'https://netflix-clone-359d3.web.app/',
-    repo: 'https://github.com/avi-verma-web/netflixclone-react', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'voice.png',
-    title: 'Voice recognition news app',
-    info:
-      'Conversational Voice Controlled React News Application using Alan AI built using react.Created a backend server using Alan AI.Used material ui for styling react functional components.',
-    info2: '',
-    url: 'https://avinashvoicenews.netlify.app/',
-    repo: 'https://github.com/avi-verma-web/avi-voice-news', // if no repo, the button will not show up
+    repo: 'https://github.com/avi-verma-web/netflixclone-react',
   },
   {
     id: nanoid(),
     img: 'search.png',
-    title: 'Search Engine',
+    title: 'React Search Engine',
     info:
-      'Prototype of search engine using react js. Used google api to perform searches. React Context api for state passing between components.CSS flexbox for layout and styling. Firebase as hosting platform.',
-    info2: '',
+      'Search-engine prototype using React, Google API and Context API.',
     url: 'https://avi--clone.web.app/',
-    repo: 'https://github.com/avi-verma-web/react-Search-engine', // if no repo, the button will not show up
+    repo: 'https://github.com/avi-verma-web/react-Search-engine',
   },
   {
     id: nanoid(),
     img: 'contactbook.png',
     title: 'Redux Contact Book',
     info:
-      'A react contact book with Redux. Complete CRUD operations and management of contacts using react-redux. Bootstrap for styling while firebase for deploying the application',
-    info2: '',
+      'Contact management application with CRUD operations using React and Redux.',
     url: 'https://avi-redux-contactbook.web.app/',
-    repo: 'https://github.com/avi-verma-web/react-redux-contact-book', // if no repo, the button will not show up
+    repo: 'https://github.com/avi-verma-web/react-redux-contact-book',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: 'imavinashverma99@gmail.com',
-  email: 'https://mail.google.com/mail/u/0/#inbox',
+  cta: 'Have a project or opportunity in mind? Get in touch.',
+  btn: 'Email Avinash',
+  email: 'mailto:imavinashverma99@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    {
-      id: nanoid(),
-      name: 'medium',
-      url: 'https://medium.com/@imavinashverma99',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -110,10 +123,15 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/avi-verma-web',
     },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://aviverma.hashnode.dev/',
+    },
   ],
 };
 
-// Github start/fork buttons
+// Github star/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false,
 };
