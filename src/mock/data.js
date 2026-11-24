@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'plant-analyzer.png',
+    img: 'voice.png',
     title: 'Plant Analyzer',
     info:
       'AI-powered plant analysis application. Uses Google Gemini 2.0 Flash for plant identification, health analysis and care recommendations, with image processing and PDF report generation.',
