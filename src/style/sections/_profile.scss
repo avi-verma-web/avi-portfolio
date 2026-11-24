@@ -1,0 +1,55 @@
+.profile-section {
+  padding: 6.5rem 0;
+  background: #101827;
+  color: #e8edf5;
+}
+.profile-section--muted { background: #151f30; }
+.profile-eyebrow {
+  color: #79d5c5;
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .2em;
+  margin-bottom: .8rem;
+}
+.profile-heading {
+  color: #f7f9fc;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -.045em;
+  margin-bottom: 2.5rem;
+}
+.profile-timeline { border-left: 2px solid #3d596b; margin-left: .35rem; padding-left: 2rem; }
+.profile-timeline__item { position: relative; max-width: 850px; }
+.profile-timeline__item:before {
+  content: ''; position: absolute; left: -2.48rem; top: .35rem; width: .8rem; height: .8rem;
+  border-radius: 50%; background: #79d5c5; box-shadow: 0 0 0 6px #263c4c;
+}
+.profile-timeline__date, .recognition-card__label {
+  color: #79d5c5; font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
+}
+.profile-timeline h3, .skill-card h3, .recognition-card h3, .education-card h3 {
+  color: #fff; font-size: 1.35rem; font-weight: 750; margin: .65rem 0;
+}
+.profile-timeline h3 span { color: #aab8c9; font-weight: 500; }
+.profile-timeline p, .recognition-card p, .education-card p, .profile-note {
+  color: #b7c3d2; line-height: 1.8; max-width: 760px;
+}
+.profile-tags { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1rem; }
+.profile-tags span {
+  border: 1px solid #3a4b60; color: #dce7f2; border-radius: 999px; padding: .42rem .8rem;
+  font-size: .82rem; background: rgba(255,255,255,.035);
+}
+.profile-note { font-size: .82rem; margin: 1.4rem 0 0; }
+.skill-card, .recognition-card, .education-card {
+  height: 100%; padding: 1.7rem; margin-bottom: 1.25rem; border: 1px solid #304056;
+  border-radius: 16px; background: #1b293b; box-shadow: 0 14px 36px rgba(0,0,0,.12);
+}
+.skill-card h3 { font-size: 1.1rem; }
+.recognition-card ul { color: #b7c3d2; padding-left: 1.15rem; line-height: 1.9; }
+.education-card { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.education-card__publication { border-left: 1px solid #3a4b60; padding-left: 2rem; }
+@media (max-width: 767px) {
+  .profile-section { padding: 4.5rem 0; }
+  .education-card { grid-template-columns: 1fr; }
+  .education-card__publication { border-left: 0; border-top: 1px solid #3a4b60; padding: 1.5rem 0 0; }
+}
