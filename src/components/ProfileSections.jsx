@@ -22,7 +22,6 @@ const ProfileSections = () => (
             <div className="profile-tags"><span>Angular</span><span>TypeScript</span><span>Node.js</span><span>Datadog</span><span>A/B Testing</span></div>
           </article>
         </div>
-        <p className="profile-note">Earlier roles and dates are not shown here because the public profile data available did not provide enough detail to verify them.</p>
       </Container>
     </section>
 
